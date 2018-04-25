@@ -1,7 +1,7 @@
 {
     "name": "lackone/curl",
     "description": "简单的curl组件,用于get和post请求",
-    "keywords": [""],
+    "keywords": ["curl", "get", "post"],
     "homepage": "https://github.com/lackone",
     "support": {},
     "license": "MIT",
