@@ -1,0 +1,37 @@
+{
+	//组件的厂商名和包名，会在packagist显示
+    "name": "lackone/curl",
+	//组件的描述
+    "description": "简单的curl组件,用于get和post请求",
+	//组件的关键字
+	"keywords":[""],
+	//组件的网址
+	"homepage": "",
+	//获取技术支持的方式
+	"support": {},
+	//软件许可证
+	"license": "MIT",
+	//作者信息
+    "authors": [
+        {
+            "name": "lackone",
+            "email": "lackone@126.com"
+        }
+    ],
+	//列出组件自身依赖的组件
+    "require": {},
+
+	//开发这个组件所需的依赖
+	"require-dev": {},
+
+	//建议安装的组件，composer不会安装
+	"suggest": {},
+
+	//告诉composer自动加载器如何加载这个组件
+	//注意命名空间与目录的对应关系
+	"autoload": {
+		"psr-4": {
+			"Lackone\\Curl\\": ""
+		}
+	}
+}
