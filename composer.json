@@ -1,10 +1,10 @@
 {
     "name": "lackone/curl",
     "description": "简单的curl组件,用于get和post请求",
-	"keywords":[""],
-	"homepage": "https://github.com/lackone",
-	"support": {},
-	"license": "MIT",
+    "keywords": [""],
+    "homepage": "https://github.com/lackone",
+    "support": {},
+    "license": "MIT",
     "authors": [
         {
             "name": "lackone",
@@ -12,11 +12,11 @@
         }
     ],
     "require": {},
-	"require-dev": {},
-	"suggest": {},
-	"autoload": {
-		"psr-4": {
-			"Lackone\\": ""
-		}
+    "require-dev": {},
+    "suggest": {},
+    "autoload": {
+	"psr-4": {
+	    "Lackone\\": ""
 	}
+    }
 }
