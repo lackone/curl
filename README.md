@@ -16,12 +16,12 @@
 
 ### 3、get请求
 <code>
-    $data = Curl::get('http://www.baidu.com');
+    $data = Curl::get('http://www.baidu.com');
 </code>
 
 ### 4、post请求
 <code>
-    $data = Curl::post('http://127.0.0.1/test', ['name' => 'test']);
+    $data = Curl::post('http://127.0.0.1/test', ['name' => 'test']);
 </code>
 
 ### 5、上传文件
