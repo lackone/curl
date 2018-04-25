@@ -14,12 +14,17 @@
     use Lackone\Curl;
 </code>
 
-### 3、使用get和post方法
+### 3、get请求
 <code>
-    //get请求
     $data = Curl::get('http://www.baidu.com');
-    //post请求
+</code>
+
+### 4、post请求
+<code>
     $data = Curl::post('http://127.0.0.1/test', ['name' => 'test']);
-    //上传文件
+</code>
+
+### 5、上传文件
+<code>
     $data = Curl::post('http://127.0.0.1/test', ['file' => '@./README.md']);
 </code>
