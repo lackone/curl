@@ -83,7 +83,7 @@ class Curl
                 if (is_array($params) && !empty($params)) {
                     $params = http_build_query($params);
                 }
-                $url = rtrim($url, '?') . $params;
+                $url = rtrim($url, '?') . '?' . $params;
                 break;
             default :
                 return false;
